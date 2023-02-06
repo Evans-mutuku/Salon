@@ -8,7 +8,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 7rem;
-  background-color: #ff7f00;
+  /* background-color: #ff7f00; */
+  background: pink;
+  background: linear-gradient(
+    90deg,
+    pink 0%,
+    rgb(250, 135, 206) 35%,
+    rgb(250, 102, 230) 100%
+  );
   color: white;
 }
 
@@ -23,10 +30,11 @@
 }
 
 .nav-links > a:hover {
-  color: #0000ff;
+  color: #000000;
 }
 
 .hero-cont{
+  height: 90vh;
   background: pink;
   background: linear-gradient(
     90deg,
@@ -45,4 +53,38 @@
   /* background-color: #ff7f00; */
   padding-top: 20px;
   object-fit: contain;
+}
+
+.home-cont h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  
+}
+.home-cont span{
+  font-size: 1.4rem;
+}
+
+.home-cont > p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 19px;
+  width: 40%;
+  line-height: 1.5rem;
+
+}
+
+.home-cont > button{
+  border: 2px solid purple;
+  color: purple;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 9999px;
+}
+
+.home-cont > button:hover{
+  border: 2px solid purple;
+  font-weight: bold;
 }
