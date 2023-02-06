@@ -3,7 +3,8 @@
     margin-bottom: 8%;
     text-align: center;
     font-family: "Fredoka One", cursive;
-    color: #ff7f00;
+    /* color: #ff7f00; */
+    color: rgb(250, 102, 230);
     letter-spacing: 0.1em;
   }
   
@@ -46,7 +47,14 @@
   }
   
   #submit, #create-acct-btn {
-    background-color: #ff7f00;
+    background: pink;
+    background: linear-gradient(
+      90deg,
+      pink 0%,
+      rgb(250, 135, 206) 35%,
+      rgb(250, 102, 230) 100%
+    );
+    /* background-color: #ff7f00; */
     color: white;
     border: none;
     margin-top: 5%;
