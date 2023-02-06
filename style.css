@@ -1,10 +1,9 @@
- *{
+* {
   margin: 0;
   padding: 0;
+}
 
- }
-
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +12,7 @@
   color: white;
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   gap: 2rem;
   /* justify-content: space-between; */
@@ -23,6 +22,27 @@
   text-decoration: none;
 }
 
-.nav-links > a:hover{
+.nav-links > a:hover {
   color: #0000ff;
+}
+
+.hero-cont{
+  background: pink;
+  background: linear-gradient(
+    90deg,
+    pink 0%,
+    rgb(250, 135, 206) 35%,
+    rgb(250, 102, 230) 100%
+  );
+}
+.body-cont {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* background-color: #ff7f00; */
+  padding-top: 20px;
+  object-fit: contain;
 }
