@@ -75,7 +75,7 @@ createacctbtn.addEventListener("click", function () {
     createUserWithEmailAndPassword(auth, signupEmail, signupPassword)
       .then((userCredentials) => {
         window.alert("Success! Account Created");
-        window.location = "./createTask.html";
+        window.location = "./services.html";
       })
       .catch((error) => {
         window.alert("Error occurred. Try Again");
@@ -90,7 +90,7 @@ submitButton.addEventListener("click", function () {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredentials) => {
       window.alert("Success!, Welcome Back");
-      window.location = "./createTask.html";
+      window.location = "./services.html";
     })
     .catch((error) => {
       const errorMessage = error.message;

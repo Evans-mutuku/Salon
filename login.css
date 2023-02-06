@@ -1,9 +1,9 @@
 
-h1 {
+#main, #create-acct > h1 {
     margin-bottom: 8%;
     text-align: center;
     font-family: "Fredoka One", cursive;
-    color: #01a2a8;
+    color: #ff7f00;
     letter-spacing: 0.1em;
   }
   
@@ -41,12 +41,12 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40vw;
     margin: auto;
-    height: 70vh;
-    margin-top: 15vh;
+    height: 50vh;
+    margin-top: 8vh;
   }
   
   #submit, #create-acct-btn {
-    background-color: #AB1449;
+    background-color: #ff7f00;
     color: white;
     border: none;
     margin-top: 5%;
